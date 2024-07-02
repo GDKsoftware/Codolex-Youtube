@@ -1,0 +1,32 @@
+{
+    "name": "ConversionProject",
+    "fileName": "ConversionProject.fcp",
+    "supportedLanguages": 1,
+    "projectVersion": "2.2.1",
+    "autorisationRoles": [
+    ],
+    "storageVersion": "2.2.1",
+    "datasources": [
+        {
+            "guid": "{FD8EC755-48EC-4E7A-81D1-BE7D1370091C}",
+            "filePath": "ConversionProject.DataSource.MenuCard.fds"
+        }
+    ],
+    "guid": "{0EB42CF2-F48D-4C63-B339-CA560D826944}",
+    "modules": [
+        {
+            "name": "Conversion",
+            "guid": "{37510022-8540-47FD-91D4-FC052E343B68}",
+            "FlowClasses": [
+                {
+                    "guid": "{B6D4A69A-A040-441C-ABAE-EBD95CE0126C}",
+                    "filePath": "Conversion\\Conversion.Json.fsf"
+                },
+                {
+                    "guid": "{E6A16C59-70B3-4FEA-95F2-D486FD3A7261}",
+                    "filePath": "Conversion\\Conversion.KeyValue.fsf"
+                }
+            ]
+        }
+    ]
+}

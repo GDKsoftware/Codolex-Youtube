@@ -1,0 +1,90 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        50,
+        194,
+        122,
+        277,
+        [
+            50,
+            194
+        ],
+        [
+            122,
+            277
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Project",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "menuitem",
+    "sourceName": "menuitem",
+    "guid": "{461A1226-C9EF-40D4-8B61-F0F4902F035E}",
+    "fields": [
+        {
+            "name": "menuitemID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "menuitemID",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "isCollection": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "generator": "",
+            "guid": "{47D87215-DE0D-4759-8634-56FA9927164A}"
+        },
+        {
+            "name": "value",
+            "dataType": "string_",
+            "size": 5,
+            "defaultValue": "",
+            "sourceName": "value",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "isCollection": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 1,
+            "generator": "",
+            "guid": "{9ACB3D18-4A64-4965-9DFD-27D3778F6429}"
+        },
+        {
+            "name": "onclick",
+            "dataType": "string_",
+            "size": 14,
+            "defaultValue": "",
+            "sourceName": "onclick",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "isCollection": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 2,
+            "generator": "",
+            "guid": "{2D85C656-1A0B-4AC6-A868-4348EE36B36B}"
+        },
+        {
+            "name": "popupID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "popupID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "isCollection": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "generator": "",
+            "guid": "{04464F62-11EE-406F-A0B3-2BB2C41A5F89}"
+        }
+    ],
+    "associations": [
+        "{C46294BF-1C48-42EB-A4EE-6D757188A077}"
+    ],
+    "datasource": "{FD8EC755-48EC-4E7A-81D1-BE7D1370091C}"
+}

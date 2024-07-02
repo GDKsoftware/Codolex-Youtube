@@ -1,0 +1,172 @@
+{
+    "name": "MenuCard",
+    "dataSourceType": "Memory",
+    "databaseServer": "None",
+    "generators": [
+    ],
+    "guid": "{FD8EC755-48EC-4E7A-81D1-BE7D1370091C}",
+    "entityFiles": [
+        {
+            "guid": "{514B9408-021A-473E-9F75-7E447AAE1820}",
+            "filePath": "DataSources\\ConversionProject.DataSource.MenuCard.MenuCard.fde"
+        },
+        {
+            "guid": "{31E4C593-B366-4B08-9BA5-5CAE522528FA}",
+            "filePath": "DataSources\\ConversionProject.DataSource.MenuCard.menu.fde"
+        },
+        {
+            "guid": "{461A1226-C9EF-40D4-8B61-F0F4902F035E}",
+            "filePath": "DataSources\\ConversionProject.DataSource.MenuCard.menuitem.fde"
+        },
+        {
+            "guid": "{E1A47507-B334-4138-B2DA-023966E0E312}",
+            "filePath": "DataSources\\ConversionProject.DataSource.MenuCard.popup.fde"
+        }
+    ],
+    "associations": [
+        {
+            "associationType": "OneToOne",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        256,
+                        26
+                    ],
+                    "From_",
+                    "Left",
+                    26,
+                    [
+                        324,
+                        151
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        513,
+                        3
+                    ],
+                    "To_",
+                    "Right",
+                    3,
+                    [
+                        379,
+                        253
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "isAutoCreate": true,
+            "foreignName": "menu",
+            "name": "popup",
+            "sourceName": "",
+            "guid": "{4CA924E1-A77C-47B9-A548-E06C3C7D23CB}",
+            "fromEntity": "{31E4C593-B366-4B08-9BA5-5CAE522528FA}",
+            "fromField": "{7322A2D3-57F9-4E22-97AA-D66FDD96C4E5}",
+            "toEntity": "{E1A47507-B334-4138-B2DA-023966E0E312}",
+            "toField": "{CDF193E2-881D-402E-80E9-CB63D3FF9D98}"
+        },
+        {
+            "associationType": "OneToOne",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        11
+                    ],
+                    "From_",
+                    "Right",
+                    11,
+                    [
+                        123,
+                        116
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        -19
+                    ],
+                    "To_",
+                    "Left",
+                    -19,
+                    [
+                        324,
+                        106
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "isAutoCreate": true,
+            "foreignName": "MenuCard",
+            "name": "menu",
+            "sourceName": "",
+            "guid": "{66F821FA-09DC-4874-A3B0-4E0CEC71DBD4}",
+            "fromEntity": "{514B9408-021A-473E-9F75-7E447AAE1820}",
+            "fromField": "{CD1C597C-7974-41D6-AD81-1DB40969019A}",
+            "toEntity": "{31E4C593-B366-4B08-9BA5-5CAE522528FA}",
+            "toField": "{34DCC986-06AC-429E-90BF-138237B0DCB7}"
+        },
+        {
+            "associationType": "OneToMany",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        26
+                    ],
+                    "From_",
+                    "Right",
+                    26,
+                    [
+                        122,
+                        261
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        3
+                    ],
+                    "To_",
+                    "Left",
+                    3,
+                    [
+                        324,
+                        253
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "isAutoCreate": true,
+            "foreignName": "menuitem",
+            "name": "popup",
+            "sourceName": "",
+            "guid": "{C46294BF-1C48-42EB-A4EE-6D757188A077}",
+            "fromEntity": "{461A1226-C9EF-40D4-8B61-F0F4902F035E}",
+            "fromField": "{04464F62-11EE-406F-A0B3-2BB2C41A5F89}",
+            "toEntity": "{E1A47507-B334-4138-B2DA-023966E0E312}",
+            "toField": "{CDF193E2-881D-402E-80E9-CB63D3FF9D98}"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        50,
+        79,
+        123,
+        132,
+        [
+            50,
+            79
+        ],
+        [
+            123,
+            132
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Project",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "MenuCard",
+    "sourceName": "MenuCard",
+    "guid": "{514B9408-021A-473E-9F75-7E447AAE1820}",
+    "fields": [
+        {
+            "name": "MenuCardID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "MenuCardID",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "isCollection": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "generator": "",
+            "guid": "{A66EC39A-3A61-4A1D-A4B3-B5E1D0AED1CA}"
+        },
+        {
+            "name": "menuID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "menuID",
+            "isPrimaryKeyField": false,
+            "isReadOnly": false,
+            "isCollection": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "generator": "",
+            "guid": "{CD1C597C-7974-41D6-AD81-1DB40969019A}"
+        }
+    ],
+    "associations": [
+        "{66F821FA-09DC-4874-A3B0-4E0CEC71DBD4}"
+    ],
+    "datasource": "{FD8EC755-48EC-4E7A-81D1-BE7D1370091C}"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Json",
+    "variables": [
+    ],
+    "language": "Delphi",
+    "guid": "{B6D4A69A-A040-441C-ABAE-EBD95CE0126C}",
+    "flows": [
+        {
+            "guid": "{388FBCB1-FE90-42B6-9BB2-BBDBAF213AD0}",
+            "filePath": "Conversion\\Conversion.Json.EntityToJson.fsf"
+        },
+        {
+            "guid": "{B25D9C3B-2339-4390-B456-78D55ED7EC37}",
+            "filePath": "Conversion\\Conversion.Json.JsonToEntity.fsf"
+        }
+    ]
+}

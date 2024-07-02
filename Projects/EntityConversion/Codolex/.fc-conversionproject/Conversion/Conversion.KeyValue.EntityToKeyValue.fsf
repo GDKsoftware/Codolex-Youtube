@@ -1,0 +1,471 @@
+{
+    "name": "EntityToKeyValue",
+    "visibility": "Public_",
+    "isStatic": true,
+    "returnValue": "{E5A18D6C-D040-4598-B78E-D9988853C0E0}",
+    "autorisationSettings": {
+        "hasAnonymousAccess": false,
+        "rolesWithAccess": [
+        ],
+        "guid": "{84538488-826A-457B-873C-FC28AEB35768}"
+    },
+    "apiEndpoint": {
+        "rESTMethod": "Automatic",
+        "path": "",
+        "guid": "{D714001E-5EDE-47C1-9DDB-E20AAAC93524}"
+    },
+    "isFunction": false,
+    "isPublished": false,
+    "guid": "{0F36EBD5-C0AB-4E0E-8C44-B9E19256FEC7}",
+    "start": "{CF7FA3E3-41B7-4EB1-9AF0-575BD2A9B2DD}",
+    "ends": [
+        "{12802350-082D-4C12-A591-AA30527DF126}"
+    ],
+    "parameters": [
+    ],
+    "elements": [
+        {
+            "bounds": [
+                30,
+                255,
+                100,
+                325,
+                [
+                    30,
+                    255
+                ],
+                [
+                    100,
+                    325
+                ]
+            ],
+            "componentName": "",
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "FlowModel.Start.TFlowStart",
+            "guid": "{CF7FA3E3-41B7-4EB1-9AF0-575BD2A9B2DD}",
+            "incomingSequences": [
+            ],
+            "outgoingSequences": [
+                "{C75354B4-7B9C-45BA-9048-E9D579DB0EEF}"
+            ],
+            "startSequence": "{C75354B4-7B9C-45BA-9048-E9D579DB0EEF}"
+        },
+        {
+            "returnVariable": "",
+            "bounds": [
+                862,
+                255,
+                932,
+                325,
+                [
+                    862,
+                    255
+                ],
+                [
+                    932,
+                    325
+                ]
+            ],
+            "componentName": "Core.Structural.End",
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "Core.Structural.End",
+            "guid": "{12802350-082D-4C12-A591-AA30527DF126}",
+            "incomingSequences": [
+                "{CF5BE751-D952-4FE5-8CEC-A9DC35BD23FE}"
+            ],
+            "outgoingSequences": [
+            ]
+        },
+        {
+            "name": "",
+            "variableType": "None",
+            "collectionType": "None",
+            "expression": "",
+            "customTypeName": "",
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{E5A18D6C-D040-4598-B78E-D9988853C0E0}"
+        },
+        {
+            "orderNumber": 0,
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        0
+                    ],
+                    "From_",
+                    "Right",
+                    0,
+                    [
+                        100,
+                        290
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        0
+                    ],
+                    "To_",
+                    "Left",
+                    0,
+                    [
+                        159,
+                        290
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{C75354B4-7B9C-45BA-9048-E9D579DB0EEF}",
+            "toElement": "{9B0501CD-157E-4B74-8FC9-23B98A4035F5}",
+            "fromElement": "{CF7FA3E3-41B7-4EB1-9AF0-575BD2A9B2DD}"
+        },
+        {
+            "scope": "Local",
+            "flowClassVariable": "",
+            "expression": "",
+            "bounds": [
+                159,
+                258,
+                331,
+                322,
+                [
+                    159,
+                    258
+                ],
+                [
+                    331,
+                    322
+                ]
+            ],
+            "componentName": "Core.Activities.CreateVariable",
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "Core.Activities.CreateVariable",
+            "guid": "{9B0501CD-157E-4B74-8FC9-23B98A4035F5}",
+            "incomingSequences": [
+                "{C75354B4-7B9C-45BA-9048-E9D579DB0EEF}"
+            ],
+            "outgoingSequences": [
+                "{A352FEF6-03CC-45B6-AF18-2222C85C02A8}"
+            ],
+            "boundaryEvents": [
+            ],
+            "returnVariable": "{601E8BD8-DD09-4D66-A9C2-ABABA6CC2DB5}",
+            "properties": [
+                {
+                    "name": "menuitemID",
+                    "value": "1",
+                    "dataType": "Integer_",
+                    "referenceGuid": "{47D87215-DE0D-4759-8634-56FA9927164A}",
+                    "isReadOnly": false,
+                    "guid": "{90BB060B-20CC-41FD-BCA8-8085BFB25C63}"
+                },
+                {
+                    "name": "value",
+                    "value": "'KeyValueTest'",
+                    "dataType": "string_",
+                    "referenceGuid": "{9ACB3D18-4A64-4965-9DFD-27D3778F6429}",
+                    "isReadOnly": false,
+                    "guid": "{91018E7F-52FB-43A1-B058-97A3BF43251B}"
+                },
+                {
+                    "name": "onclick",
+                    "value": "",
+                    "dataType": "string_",
+                    "referenceGuid": "{2D85C656-1A0B-4AC6-A868-4348EE36B36B}",
+                    "isReadOnly": false,
+                    "guid": "{740A9C9E-2843-417D-B798-EC5D4F9A151D}"
+                },
+                {
+                    "name": "popupID",
+                    "value": "2",
+                    "dataType": "Integer_",
+                    "referenceGuid": "{04464F62-11EE-406F-A0B3-2BB2C41A5F89}",
+                    "isReadOnly": false,
+                    "guid": "{313CF1A2-0390-4908-AC86-7A7CDAA008E5}"
+                }
+            ]
+        },
+        {
+            "name": "menuitem",
+            "variableType": "Entity_",
+            "collectionType": "None",
+            "expression": "",
+            "customTypeName": "",
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{601E8BD8-DD09-4D66-A9C2-ABABA6CC2DB5}",
+            "entity": "{461A1226-C9EF-40D4-8B61-F0F4902F035E}",
+            "owner": "{9B0501CD-157E-4B74-8FC9-23B98A4035F5}"
+        },
+        {
+            "orderNumber": 0,
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        0
+                    ],
+                    "From_",
+                    "Right",
+                    0,
+                    [
+                        331,
+                        290
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        0
+                    ],
+                    "To_",
+                    "Left",
+                    0,
+                    [
+                        392,
+                        290
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{A352FEF6-03CC-45B6-AF18-2222C85C02A8}",
+            "toElement": "{124E8D46-237F-4200-8908-8504C8786FBC}",
+            "fromElement": "{9B0501CD-157E-4B74-8FC9-23B98A4035F5}"
+        },
+        {
+            "mustReturnStringList": false,
+            "expression": "",
+            "bounds": [
+                392,
+                258,
+                586,
+                322,
+                [
+                    392,
+                    258
+                ],
+                [
+                    586,
+                    322
+                ]
+            ],
+            "componentName": "Core.Activities.EntityToKeyValue",
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "Core.Activities.EntityToKeyValue",
+            "guid": "{124E8D46-237F-4200-8908-8504C8786FBC}",
+            "incomingSequences": [
+                "{A352FEF6-03CC-45B6-AF18-2222C85C02A8}"
+            ],
+            "outgoingSequences": [
+                "{DD0F843C-2A38-4B94-B829-39680014B726}"
+            ],
+            "boundaryEvents": [
+            ],
+            "returnVariable": "{8588E562-1E57-4E75-9D35-E508137FE8C3}",
+            "variableToConvert": "{601E8BD8-DD09-4D66-A9C2-ABABA6CC2DB5}"
+        },
+        {
+            "name": "menuitemKeyValues",
+            "variableType": "string_",
+            "collectionType": "None",
+            "expression": "",
+            "customTypeName": "",
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{8588E562-1E57-4E75-9D35-E508137FE8C3}",
+            "owner": "{124E8D46-237F-4200-8908-8504C8786FBC}"
+        },
+        {
+            "orderNumber": 0,
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        0
+                    ],
+                    "From_",
+                    "Right",
+                    0,
+                    [
+                        586,
+                        290
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        0
+                    ],
+                    "To_",
+                    "Left",
+                    0,
+                    [
+                        647,
+                        290
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{DD0F843C-2A38-4B94-B829-39680014B726}",
+            "toElement": "{89710308-2593-4F72-BC8A-624F5F02CB8D}",
+            "fromElement": "{124E8D46-237F-4200-8908-8504C8786FBC}"
+        },
+        {
+            "orderNumber": 0,
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        0
+                    ],
+                    "From_",
+                    "Right",
+                    0,
+                    [
+                        803,
+                        290
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        0
+                    ],
+                    "To_",
+                    "Left",
+                    0,
+                    [
+                        862,
+                        290
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{CF5BE751-D952-4FE5-8CEC-A9DC35BD23FE}",
+            "toElement": "{12802350-082D-4C12-A591-AA30527DF126}",
+            "fromElement": "{89710308-2593-4F72-BC8A-624F5F02CB8D}"
+        },
+        {
+            "messageText": "menuitemKeyValues",
+            "messageType": "mtInformation",
+            "expression": "",
+            "bounds": [
+                647,
+                258,
+                803,
+                322,
+                [
+                    647,
+                    258
+                ],
+                [
+                    803,
+                    322
+                ]
+            ],
+            "componentName": "Core.Activities.ShowDialog",
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "Core.Activities.ShowDialog",
+            "guid": "{89710308-2593-4F72-BC8A-624F5F02CB8D}",
+            "incomingSequences": [
+                "{DD0F843C-2A38-4B94-B829-39680014B726}"
+            ],
+            "outgoingSequences": [
+                "{CF5BE751-D952-4FE5-8CEC-A9DC35BD23FE}"
+            ],
+            "boundaryEvents": [
+            ],
+            "returnVariable": "{04E6565B-317C-43B2-9B23-1EFE10E9A726}",
+            "MessageButtons": [
+                "mbOK"
+            ]
+        },
+        {
+            "name": "DialogResult",
+            "variableType": "Integer_",
+            "collectionType": "None",
+            "expression": "",
+            "customTypeName": "",
+            "description": "",
+            "caption": "",
+            "documentation": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{04E6565B-317C-43B2-9B23-1EFE10E9A726}",
+            "owner": "{89710308-2593-4F72-BC8A-624F5F02CB8D}"
+        }
+    ]
+}

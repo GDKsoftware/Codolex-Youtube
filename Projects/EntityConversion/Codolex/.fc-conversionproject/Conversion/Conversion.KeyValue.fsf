@@ -1,0 +1,17 @@
+{
+    "name": "KeyValue",
+    "variables": [
+    ],
+    "language": "Delphi",
+    "guid": "{E6A16C59-70B3-4FEA-95F2-D486FD3A7261}",
+    "flows": [
+        {
+            "guid": "{0F36EBD5-C0AB-4E0E-8C44-B9E19256FEC7}",
+            "filePath": "Conversion\\Conversion.KeyValue.EntityToKeyValue.fsf"
+        },
+        {
+            "guid": "{0AFA2BF4-B5BF-4590-AA85-ABAF87795331}",
+            "filePath": "Conversion\\Conversion.KeyValue.KeyValueToEntity.fsf"
+        }
+    ]
+}

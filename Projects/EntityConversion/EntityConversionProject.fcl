@@ -1,0 +1,10 @@
+{
+    "programName": "EntityConversionProject.dproj",
+    "guid": "{1B69E75A-20DA-47B7-9F64-B7A2ACDBAEF5}",
+    "projects": [
+        {
+            "name": "ConversionProject",
+            "projectGUID": "{0EB42CF2-F48D-4C63-B339-CA560D826944}"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "isPersistent": true,
+    "bounds": [
+        324,
+        231,
+        379,
+        269,
+        [
+            324,
+            231
+        ],
+        [
+            379,
+            269
+        ]
+    ],
+    "entityType": "Entity",
+    "sourceLocation": "Project",
+    "selectStatement": "",
+    "isReadOnly": false,
+    "name": "popup",
+    "sourceName": "popup",
+    "guid": "{E1A47507-B334-4138-B2DA-023966E0E312}",
+    "fields": [
+        {
+            "name": "popupID",
+            "dataType": "Integer_",
+            "size": 0,
+            "defaultValue": "",
+            "sourceName": "popupID",
+            "isPrimaryKeyField": true,
+            "isReadOnly": false,
+            "isCollection": false,
+            "precision": 0,
+            "scale": 0,
+            "position": 0,
+            "generator": "",
+            "guid": "{CDF193E2-881D-402E-80E9-CB63D3FF9D98}"
+        }
+    ],
+    "associations": [
+        "{4CA924E1-A77C-47B9-A548-E06C3C7D23CB}",
+        "{C46294BF-1C48-42EB-A4EE-6D757188A077}"
+    ],
+    "datasource": "{FD8EC755-48EC-4E7A-81D1-BE7D1370091C}"
+}
